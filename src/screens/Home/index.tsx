@@ -1,8 +1,19 @@
-import { View } from 'react-native';
-import { Container } from './styles';
+import { Text, View } from 'react-native';
+import { Container, ContainerIcon, Content, Header } from './styles';
 
 export default function Home() {
   return (
-    <Container></Container>
+    <Container>
+      <Header>
+        <ContainerIcon>
+
+        </ContainerIcon>
+      </Header>
+
+      <Content>
+        <Text>Conteudo</Text>
+      </Content>
+
+    </Container>
   );
 }
